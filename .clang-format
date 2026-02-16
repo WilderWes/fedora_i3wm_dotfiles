@@ -1,0 +1,16 @@
+# Author: Weston Preising
+# Made with help of: https://zed0.co.uk/clang-format-configurator/
+# Reference:
+# 1) https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+BasedOnStyle: LLVM
+IndentWidth: 4
+AlwaysBreakTemplateDeclarations: Yes
+BreakBeforeBraces: Linux
+AllowShortFunctionsOnASingleLine: None
+---
+Language: Cpp
+PointerAlignment: Left
+---
+Language: C
+PointerAlignment: Right
