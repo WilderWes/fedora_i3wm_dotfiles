@@ -83,7 +83,13 @@ Fedora i3 spin config for development and guitar practice/recording. Emphasis on
 - [Bitwig Studio](https://www.bitwig.com/) (Flatpak)
 - [Handbrake](https://handbrake.fr/) — video transcoding
 - [VLC](https://www.videolan.org/vlc/)
+
 - [LocalSend](https://localsend.org/) — cross-platform file sharing (Flatpak)
+    [firewall-fix](https://github.com/localsend/localsend/issues/2592#issuecomment-3102019405)
+    `sudo firewall-cmd --get-active-zones`
+    `sudo firewall-cmd --zone=public --add-port=53317/tcp --permanent`
+    `sudo firewall-cmd --zone=public --add-port=53317/udp --permanent`
+    `sudo firewall-cmd --reload`
 
 ## AI Usage
 
