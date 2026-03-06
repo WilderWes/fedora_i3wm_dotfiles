@@ -20,7 +20,7 @@ Fedora i3 spin config for development and guitar practice/recording. Emphasis on
 
 ## Terminal & Shell
 
-- [kitty](https://sw.kovidgoyal.net/kitty/) with [JetBrains Mono NL](https://www.jetbrains.com/lp/mono/)
+- [kitty](https://sw.kovidgoyal.net/kitty/) with Fira Code
 - [oh-my-zsh](https://ohmyz.sh/) with plugins:
   - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
