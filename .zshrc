@@ -127,6 +127,7 @@ alias ls='eza -la --color=always --group-directories-first --icons'
 alias fastfetch="fastfetch --config examples/8.jsonc"
 alias update-grub="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 alias x-copy="xclip -selection clipboard"
+alias ssh="kitten ssh"
 
 # Yazi
 function y() {
@@ -142,3 +143,12 @@ eval "$(starship init zsh)"
 
 # Fastfetch
 fastfetch
+
+
+# BEGIN opam configuration
+# This is useful if you're using opam as it adds:
+#   - the correct directories to the PATH
+#   - auto-completion for the opam binary
+# This section can be safely removed at any time if needed.
+[[ ! -r '/home/wpreising/.opam/opam-init/init.zsh' ]] || source '/home/wpreising/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
+# END opam configuration
