@@ -7,6 +7,7 @@ Fedora i3 spin config for development and guitar practice/recording. Emphasis on
 ## Main Fedora i3wm Setup
 
 - [Fedora 43 Post Install Guide](https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide) — essential post-install steps
+- [kernel-cachyos](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
 - [Picom](https://github.com/yshui/picom) compositor with EGL backend
 - [autorandr](https://github.com/phillipberndt/autorandr) — automatic display configuration based on connected hardware
 - [ly](https://github.com/fairyglade/ly) — TUI display manager
