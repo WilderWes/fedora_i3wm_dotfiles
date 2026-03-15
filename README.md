@@ -73,7 +73,6 @@ Fedora i3 spin config for development and guitar practice/recording. Emphasis on
 
 ## Music Production / Guitar
 
-- [wine-tkg](https://copr.fedorainfracloud.org/coprs/patrickl/wine-tkg/) — sets up `realtime-setup`, `wineasio` and works with Yousician app
 - [Transcribe!](https://www.seventhstring.com/) — slow down audio, loop sections, transcribe by ear
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) — download videos/audio from YouTube
 - [DaVinci Resolve Studio](https://www.blackmagicdesign.com/products/davinciresolve) — video editing
