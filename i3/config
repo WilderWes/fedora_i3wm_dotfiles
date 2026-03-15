@@ -68,7 +68,7 @@ bindsym $mod+Escape exec --no-startup-id loginctl lock-session
 bindsym $mod+b exec --no-startup-id firefox
 bindsym $mod+f exec --no-startup-id kitty -e yazi
 bindsym $mod+p exec --no-startup-id 1password
-bindsym $mod+d exec --no-startup-id Discord
+bindsym $mod+d exec --no-startup-id vesktop
 bindsym Print exec --no-startup-id sh -c 'maim -s -u | xclip -selection clipboard -t image/png -i'
 
 # change focus
@@ -144,6 +144,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+assign [class="vesktop"] 10
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
